@@ -25,6 +25,92 @@ Algumas informações úteis e dicas:
 html,
 body {
   font-family: "Roboto", sans-serif;
+  justify-content: center;
+}
+
+.card{
+  display: flex;
+  width: 24rem;
+  height: 12rem;
+  flex-direction: column;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem 0rem;
+  align-items: center;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.card-container{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem;
+}
+
+.card-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.card-content{
+  position: relative;
+  font-size: 1.5rem;
+  color: #4c4c4c;
+  font-family: 'Permanent Marker', cursive;
+  top: 20%;
+}
+
+.card-color-1{
+  background-color: #ead3a7;
+}
+.card-color-2{
+  background-color: #9de0f5;
+}
+.card-color-3{
+  background-color: #ef89ba;
+}
+.card-color-4{
+  background-color: #fae890;
+}
+.card-color-5{
+  background-color: #abe9c1;
+}
+
+.card-rotation-1{
+  transform: rotate(-5deg);
+}
+.card-rotation-2{
+  transform: rotate(-4deg);
+}
+.card-rotation-3{
+  transform: rotate(-3deg);
+}
+.card-rotation-4{
+  transform: rotate(-2deg);
+}
+.card-rotation-5{
+  transform: rotate(-1deg);
+}
+.card-rotation-6{
+  transform: rotate(0deg);
+}
+.card-rotation-7{
+  transform: rotate(1deg);
+}
+.card-rotation-8{
+  transform: rotate(2deg);
+}
+.card-rotation-9{
+  transform: rotate(3deg);
+}
+.card-rotation-10{
+  transform: rotate(4deg);
+}
+.card-rotation-11{
+  transform: rotate(5deg);
 }
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
