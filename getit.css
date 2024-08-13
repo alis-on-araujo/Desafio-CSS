@@ -22,10 +22,54 @@ Algumas informações úteis e dicas:
   - Sombra: https://codepen.io/sdthornton/pen/wBZdXq
  */
 
-html,
-body {
+html,body {
   font-family: "Roboto", sans-serif;
   justify-content: center;
+}
+
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container{
+  height: 100%;
+}
+
+.form-card{
+  align-content: space-around;
+  width: 55rem;
+  height: 10rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 2rem 0rem;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.form-card-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c2c2c;
+  border: 0;
+}
+
+.btn{
+  background-color: #f7d736;
+  height: 3rem;
+  width: 100%;
+  border: #4c4c4c 1px solid;
+  border-radius: 0.5rem;
+}
+
+.autoresize{
+  resize: none;
+  width: 100%;
+  font-size: 1rem;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+  margin: 1rem 0rem;
 }
 
 .card{
@@ -35,7 +79,7 @@ body {
   flex-direction: column;
   border-radius: 1rem;
   padding: 1rem;
-  margin: 1rem 0rem;
+  margin: 1rem 0.2rem;
   align-items: center;
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
